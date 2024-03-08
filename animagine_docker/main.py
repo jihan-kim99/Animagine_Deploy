@@ -7,7 +7,7 @@ import base64
 from huggingface_hub import login
 
 app = Flask(__name__)
-login("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")
+login()
 
 print('logged in...')
 
